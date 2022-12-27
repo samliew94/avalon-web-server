@@ -27,16 +27,16 @@ INSERT INTO game_roles_visibility(game_roles_id, can_see_game_roles_id) VALUES (
 INSERT INTO game_roles_visibility(game_roles_id, can_see_game_roles_id) VALUES (8, 4); -- mordred sees morgana
 INSERT INTO game_roles_visibility(game_roles_id, can_see_game_roles_id) VALUES (8, 6); -- mordred sees generic evil
 
-INSERT INTO users (username, game_roles_id, is_host) VALUES ('sam', null, true);
-INSERT INTO users (username, game_roles_id) VALUES ('adrian', null);
-INSERT INTO users (username, game_roles_id) VALUES ('ck', null);
-INSERT INTO users (username, game_roles_id) VALUES ('chua', null);
-INSERT INTO users (username, game_roles_id) VALUES ('lu', null);
-INSERT INTO users (username, game_roles_id) VALUES ('chen', null);
-INSERT INTO users (username, game_roles_id) VALUES ('doreen', null);
-INSERT INTO users (username, game_roles_id) VALUES ('mimik', null);
-INSERT INTO users (username, game_roles_id) VALUES ('john', null);
-INSERT INTO users (username, game_roles_id) VALUES ('james', null);
+--INSERT INTO users (username, game_roles_id, is_host) VALUES ('sam', null, true);
+--INSERT INTO users (username, game_roles_id) VALUES ('james', null);
+--INSERT INTO users (username, game_roles_id) VALUES ('wong', null);
+--INSERT INTO users (username, game_roles_id) VALUES ('benedict', null);
+--INSERT INTO users (username, game_roles_id) VALUES ('stsange', null);
+--INSERT INTO users (username, game_roles_id) VALUES ('chris', null);
+--INSERT INTO users (username, game_roles_id) VALUES ('evans', null);
+--INSERT INTO users (username, game_roles_id) VALUES ('steve', null);
+--INSERT INTO users (username, game_roles_id) VALUES ('rogers', null);
+--INSERT INTO users (username, game_roles_id) VALUES ('tony', null);
 
 INSERT INTO ratio_rules(total_players, total_good, total_evil) VALUES (5,3,2);
 INSERT INTO ratio_rules(total_players, total_good, total_evil) VALUES (6,4,2);
