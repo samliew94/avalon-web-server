@@ -58,10 +58,13 @@ public class PlayerController {
 		System.out.println("add/"+username);
 		
 		try (Session session = sessionFactory.openSession()) {
+			
+			username = username.toLowerCase();
+			
 			Transaction transaction = session.beginTransaction();
 
 			try {
-				Users user = session.get(Users.class, username.toLowerCase());
+				Users user = session.get(Users.class, username);
 
 				if (user != null)
 					return new ResponseEntity(user, HttpStatus.OK);
